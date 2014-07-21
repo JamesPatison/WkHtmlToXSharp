@@ -395,6 +395,9 @@ namespace WkHtmlToXSharp
 		}
 		#endregion
 		
+		
+ 	       #region HelperMethods
+ 	       
 	       public static float InchesToMillimeters(float inches)
 	       {
 	             return inches * 25.4f;
