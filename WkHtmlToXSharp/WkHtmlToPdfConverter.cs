@@ -394,5 +394,13 @@ namespace WkHtmlToXSharp
 			Dispose(false);
 		}
 		#endregion
+		
+	       public static float InchesToMillimeters(float inches)
+	       {
+	             return inches * 25.4f;
+	       }
+	 
+	       #endregion
+	  	
 	}
 }
